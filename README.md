@@ -1,5 +1,3 @@
-
-
 ## Country Code picker
 
 If you are looking for an android library for Country Selector or Country Spinner or Country Phone Code selector, this is the perfect place for you.
@@ -20,9 +18,6 @@ Introduction
     - <img src="https://farm6.staticflickr.com/5686/30982885732_9e91ede573_b.jpg" width="300"> <img src="https://farm5.staticflickr.com/4384/37440899521_d19781dc52_b.jpg" width="300">
 
 
-
-
-
 ## Installation
 
 To get a Git project into your build:
@@ -32,16 +27,16 @@ Add it in your root build.gradle at the end of repositories:
 
 ```bash
   allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+  }
 ```
 Step 2. Add the dependency
 ```bash
   dependencies {
-    implementation 'com.github.anupdey99:CountryCodePicker:Tag'
+    	implementation 'com.github.anupdey99:CountryCodePicker:Tag'
   }
 ```
 ## Acknowledgements
